@@ -147,7 +147,10 @@ public class HDNode {
         childNumber = UInt32(0)
     }
 
-    private static let curveOrder = BigUInt("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141", radix: 16)!
+    private static var curveOrder: BigUInt {
+        BigUInt("FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141", radix: 16)!
+    }
+
     public static let defaultPath = "m/44'/60'/0'/0"
     public static let defaultPathPrefix = "m/44'/60'/0'"
     public static let defaultPathMetamask = "m/44'/60'/0'/0/0"

@@ -1,4 +1,5 @@
 {
+  "originHash" : "ea19320c60ab5b01af0c44482512d8d777febcd2558cf34a1e78a5c3dd9cab87",
   "pins" : [
     {
       "identity" : "anycodable",
@@ -75,10 +76,10 @@
     {
       "identity" : "uint256",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/hyugit/UInt256.git",
+      "location" : "https://github.com/MarcoDotIO/UInt256.git",
       "state" : {
-        "revision" : "1a499a1bf08afd10b9fcd0fd6d90b6dd9196be50",
-        "version" : "0.2.2"
+        "branch" : "master",
+        "revision" : "3dc471e8489ed2a1b16ac63c3bd243d97ac8478b"
       }
     },
     {
@@ -89,16 +90,7 @@
         "revision" : "e089407582e1f2d81dc11ba167362742422b8979",
         "version" : "0.1.3"
       }
-    },
-    {
-      "identity" : "web3swift",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/web3swift-team/web3swift.git",
-      "state" : {
-        "revision" : "74c24f4d3d5f1816616e9ebd16741ca5f7a57eb0",
-        "version" : "3.2.0"
-      }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
